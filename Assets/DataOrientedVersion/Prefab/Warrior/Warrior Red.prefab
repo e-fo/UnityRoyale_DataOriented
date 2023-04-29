@@ -1315,6 +1315,9 @@ GameObject:
   - component: {fileID: 8327711806079822139}
   - component: {fileID: 8957271078165597160}
   - component: {fileID: 584724006713735534}
+  - component: {fileID: 2517304368685245142}
+  - component: {fileID: 1657771066373635660}
+  - component: {fileID: 2158264420669202672}
   m_Layer: 0
   m_Name: Warrior Red
   m_TagString: Untagged
@@ -1478,6 +1481,59 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2517304368685245142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265651199913921876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c81f0fe9fda8746b63ba42e94ceeeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveInputEvent: {fileID: 11400000, guid: b457b9d8c6de6694eb7d656aafd6cab1, type: 2}
+--- !u!114 &1657771066373635660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265651199913921876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02340572a0bd00d47869ba7397cd2bb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveInputEvent: {fileID: 11400000, guid: b457b9d8c6de6694eb7d656aafd6cab1, type: 2}
+  _moveSpeed: {fileID: 11400000, guid: 47c9c79c708488f48bbebdcb6dc2e884, type: 2}
+  _isMoving: {fileID: 11400000, guid: f3c318bdabb8bc1478d163cfb39e8bb1, type: 2}
+--- !u!114 &2158264420669202672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265651199913921876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c089931e13daf459616798cc633b3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _triggerParams:
+  - ParamName: Attack
+    ParamType: 3
+    Event: {fileID: 11400000, guid: c7f0960be68454b4f9cce170e1bdd927, type: 2}
+  _boolParams:
+  - ParamName: IsMoving
+    ParamType: 2
+    Event: {fileID: 11400000, guid: 1c81b75614097684a818e6a171d6808f, type: 2}
+  _intParams: []
+  _floatParams:
+  - ParamName: MoveSpeed
+    ParamType: 1
+    Event: {fileID: 11400000, guid: 27bfbd43f9f71614c802d4d77b3f5ef1, type: 2}
 --- !u!1 &6872445903605863910
 GameObject:
   m_ObjectHideFlags: 0

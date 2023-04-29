@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c19800e64279c44e1ae4529ee6a2d780, type: 3}
-  m_Name: Vector3Event
+  m_Script: {fileID: 11500000, guid: a0635ac2f70594bd3a31a5ced16469dc, type: 3}
+  m_Name: IsWarriorMovingChanged
   m_EditorClassIdentifier: 
   _developerDescription: 
   _replayBufferSize: 1
-  _inspectorRaiseValue: {x: 0, y: 0, z: 0}
+  _inspectorRaiseValue: 0
