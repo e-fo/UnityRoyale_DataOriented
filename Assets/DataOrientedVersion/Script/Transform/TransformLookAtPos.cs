@@ -1,9 +1,11 @@
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-namespace UnityRoyale.DataOriented
+namespace UnityRoyale.DataOriented.TransformComp
 {
-    [AddComponentMenu("DataOrientedRoyale/Transform/LookAtPos")]
+    using CMRoute = ComponentMenuRoute;
+
+    [AddComponentMenu(CMRoute.Root + CMRoute.Transform + "LookAtPos")]
     [RequireComponent(typeof(Transform))]
     public class TransformLookAtPos : MonoBehaviour
     {

@@ -3,8 +3,10 @@ using UnityAtoms;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-namespace UnityRoyale.DataOriented
+namespace UnityRoyale.DataOriented.AnimationComp
 {
+    using CMRoute = ComponentMenuRoute;
+
     [Serializable]
     public struct AnimatorParamSetter<T> where T: AtomEventBase 
     {
@@ -62,7 +64,7 @@ namespace UnityRoyale.DataOriented
         }
     }
 
-    [AddComponentMenu("DataOrientedRoyale/Animation/ParamSetterByEvent")]
+    [AddComponentMenu(CMRoute.Root + CMRoute.Animator + "ParamSetterByEvent")]
     [RequireComponent(typeof(Animator))]
     public class AnimatorParamSetterByEvent : MonoBehaviour
     {
