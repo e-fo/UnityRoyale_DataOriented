@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "com.unity-atoms.unity-atoms": {
-      "version": "https://github.com/unity-atoms/unity-atoms.git",
+      "version": "file:PackageSource/com.unity-atoms.unity-atoms",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "5df498b41ee77de0c5faa73b76f7fd0ed890216a"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",

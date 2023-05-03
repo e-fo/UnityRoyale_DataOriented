@@ -1,0 +1,3 @@
+[submodule "Packages/PackageSource/com.unity-atoms.unity-atoms"]
+	path = Packages/PackageSource/com.unity-atoms.unity-atoms
+	url = https://github.com/e-fo/unity-atoms.git
