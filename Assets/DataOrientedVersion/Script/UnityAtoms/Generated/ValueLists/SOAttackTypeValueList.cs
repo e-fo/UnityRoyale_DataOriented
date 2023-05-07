@@ -8,5 +8,5 @@ namespace UnityAtoms.BaseAtoms
     /// </summary>
     [EditorIcon("atom-icon-piglet")]
     [CreateAssetMenu(menuName = "Unity Atoms/Value Lists/SOAttackType", fileName = "SOAttackTypeValueList")]
-    public sealed class SOAttackTypeValueList : AtomValueList<UnityRoyale.DataOriented.SOAttackType, SOAttackTypeEvent> { }
+    public sealed class SOAttackTypeValueList : AtomValueList<UnityRoyale.DataOriented.SOAttackType, SOAttackTypeEvent, IntEvent> { }
 }

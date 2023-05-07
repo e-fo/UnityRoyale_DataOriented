@@ -8,5 +8,5 @@ namespace UnityAtoms.BaseAtoms
     /// </summary>
     [EditorIcon("atom-icon-piglet")]
     [CreateAssetMenu(menuName = "Unity Atoms/Value Lists/SOTargetType", fileName = "SOTargetTypeValueList")]
-    public sealed class SOTargetTypeValueList : AtomValueList<UnityRoyale.DataOriented.SOTargetType, SOTargetTypeEvent> { }
+    public sealed class SOTargetTypeValueList : AtomValueList<UnityRoyale.DataOriented.SOTargetType, SOTargetTypeEvent, IntEvent> { }
 }
