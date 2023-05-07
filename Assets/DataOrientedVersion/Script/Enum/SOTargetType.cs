@@ -2,5 +2,6 @@ using UnityEngine;
 
 namespace UnityRoyale.DataOriented
 {
-    public class SOTargetType : ScriptableObject {}
+    [CreateAssetMenu(menuName = "DataOrientedRoyale/Enum/TargetType")]
+    public class SOTargetType : SOEnumBase {}
 }
